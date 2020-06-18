@@ -1,0 +1,329 @@
+
+<HTML>
+
+<title>UoY DoCS History - Computer Systems</title>
+
+<p>&nbsp;</p>
+
+<h1>History of the Department of Computer Science at York</h1>
+
+<h2>Computers - Servers, Terminals and Systems Software</h2>
+
+<p>
+<B>by Bill Freeman</B>
+</p>
+
+<p>
+24 Aug 2011
+</p>
+
+<p>
+<a href="http://www-users.cs.york.ac.uk/~wf/history/">
+Back to History index.</a>
+</p>
+
+<p>
+<h3>1. Main University Computers</h3>
+</p>
+
+<p>
+<h4>1.0 Prehistory - computers large and small</h4>
+</p>
+
+<p>
+During the 1940s and 1950s, it became possible to construct very large
+electronic machines.  Some of these were calculators; and some of them
+were computers.  Earlier, in the 1930s, automatic telephone exchanges
+had been the largest information processing machines in use on the
+planet, but they were electro-mechanical.  Electronic machines, by contrast,
+tended then to be small (e.g. radios) because anything with a large number
+of electron tubes was considered, potentially, too unreliable.  (<I>Electron
+tube</I> is the currently preferred term for the former UK <I>valve</I>
+and US <I>vacuum tube</I>.)  When Colossus was constructed at Bletchley Park
+in the 1940s, it was easily the largest <I>electronic</I> machine on Earth,
+and it convinced those who knew about it that such machines were feasible,
+in that that they would not keep breaking down all the time: an important
+step for the future of computers.
+</p> <p>
+Machines of the size of Colossus - electro-mechanical in the 1930s and 1940s,
+and electronic in the 1940s and 1950s - were typically arranged as several
+bays of racking (each bay being filled with chassis filled with circuitry)
+and a fringe of smaller pieces of equipment, such as teleprinters, standing
+around it and connected to it by wires.
+As a convenient way of referring to things, the central racking came to be
+called the <I>main frame</I>, while the fringe came to be called the
+<I>peripheral devices</I>.  In time, these became <I>mainframe</I> and
+<I>peripherals</I>.
+</p> <p>
+With the ousting of electron tubes by transistors in the late 1950s, and of
+discrete transistors by integrated circuits in the late 1960s, computers
+became smaller.  Then, computers that were still large enough to require
+bays of racking became called <I>mainframe computers</I>.  Smaller ones,
+with just one bay (but not up to the ceiling) were called
+<I>minicomputers</I>.
+During the 1970s, there came large scale integration (LSI), and a processor
+all on one chip - hence <I>microcomputers</I>.  By the 1980s, you could fit
+a computer into a washing machine - whereas, in the 1950s, you could easily
+have fitted a washing machine into a computer.
+</p> <p>
+Now, in the 21st century, a computer can be powerful without necessarily
+being large.  These terms are relative, of course: a <I>supercomputer</I>
+used for weather forecasting will be physically large - a <I>mainframe</I>
+computer if you like - but central computers serving networks are powerful
+without being remarkably large, even those that serve up simple processing
+power, and we now call these just <I>servers</I>, not mainframes.
+</p>
+
+<p>
+<h4>1.1 The Elliott (later ICL) 4130</h4>
+</p>
+
+<p>
+The University opened its first computer room - large and air-conditioned -
+in July 1967.
+Into it came the University's first computer: an Elliott 4130.
+The building had been funded, and the computer had been funded and chosen,
+by the Computer Board for England and Wales - see the
+<a href="http://www-users.cs.york.ac.uk/~wf/history/N-60-79.html">
+Narrative page for 1960-79</a>.
+</p> <p>
+As delivered, the 4130 had 16k words of core memory (32 bits per word).
+It had a fast paper tape reader and a fast paper tape punch, for the
+input and output of data.
+It had a rather slow card reader for the input of programs.  (It did not
+have a card punch - these were not common, as they were expensive to buy,
+to service, and to run.)
+It had a few (two? three?) magnetic tape handlers, of somewhat low
+specification.
+</p> <p>
+It had absolutely no on-line access of any kind.  Indeed, as evidence of its
+isolation, the only electrical connections between it and the outside world
+were the three-phase power cables laid in a trench in the surrounding concrete.
+</p> <p>
+In September 1967, its memory was upgraded to 32k.
+</p> <p>
+In January 1969, at a cost of &pound;50,257, it acquired three disc
+handlers.  These held 'exchangeable disc packs' - the operator could stop
+the handler running, open the lid of the cabinet, unlock the disc pack, and
+carry it (it was heavy) to a rack; then take up a different one, carry it
+across, lock it in place, close the lid, and press the 'run-up' button.
+Each exchangeable disc pack held one megaword (4 megabytes).
+</p> <p>
+On 6 March 1970, a fourth disc handler was added, and the memory was
+replaced by a faster, larger one of 64k, which remained for the duration.
+This upgrade also included eight teletype-33 ASR on-line
+interactive 'consoles'.
+</p> <p>
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+</p> <p>
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+</p>
+
+<p>
+<h4>1.2 The Elliott 4130 + KOS + PDP-11 front end</h4>
+</p>
+
+<p>
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+</p>
+
+<p>
+<h4>1.3 The computer replacement process</h4>
+</p>
+
+<p>
+Following the invitation to bid, there were the following contenders.
+</p>
+<ul>
+ <li><p>
+     <B>
+     Burroughs&nbsp;&nbsp;***
+     </B>
+     </p><p>
+     Burroughs offered the model 5500 (or 6500?).  These seemed at first
+     to be architecturally advanced: they were designed to have virtual
+     memory right from the start, they handled parallel processes elegantly
+     and efficiently (the instruction set operated on a cactus stack), all
+     systems software was written in a high level language (a suitably
+     modified version of <I>Algol</I>: even the Fortran compiler was
+     written in <I>Algol</I>), it could handle a very
+     large number of on-line interactive terminals, and so on.
+     But it had some serious disadvantages.
+     </p><p>
+     It was really a transaction-processing system.  It was designed to
+     operate in an environment where almost all the terminals interacted
+     with one executing program (or possibly two or three).  That is, in
+     an application such as airline seat reservation, or theatre ticket
+     booking.  Only a few 'systems' terminals had the privilege of being
+     able to create, modify and delete files, compile programs, and
+     execute object code created by the on-line user.  The Burroughs people
+     did not at first understand what we would regard as normal interactive
+     use, and were baffled even when we had explained it.
+     </p><p>
+     The other disadvantage, that spoke of its background in commercial
+     data processing, was that its disc memory was a simulation of 80-column
+     punched cards.  Each byte represented a column, and all 80 columns
+     were respesented on disc even when they were space characters (in
+     card-speak: 'blanks').  In its intended application involving a uniform
+     sequence of commercial records, that made sense; but when, as in
+     university use, most lines consisted of just a few characters terminated
+     with 'end-of-line' (a concept unknown to the card-based file store), it
+     meant that 95% of the disc represented blanks.  That was at a time when
+     discs were very expensive, slow, and physically large but logically small.
+     </p><p>
+     A certain British university from the 1960s opted for one of these
+     systems and found out afterwards.
+ </p></li>
+ <li><p>
+     <B>
+     Digital Equipment Corporation
+     </B>
+ </p></li>
+ <li><p>
+     <B>
+     General Electric&nbsp;&nbsp;***
+     </B>
+     </p><p>
+     (This was US General Electric, not UK General Electric Company).
+     </p><p>
+     There is now no memory of what they were offering.
+ </p></li>
+ <li><p>
+     <B>
+     International Business Machines
+     </B>
+     </p><p>
+     IBM were offering one of the 370 series.
+     To some extent, this system had the same disadvantages as the Burroughs
+     offering.
+     </p><p>
+     IBM put up the backs of the Department's internal committee, and to
+     some extent of CSAC, by refusing to talk to anyone 'technical' but
+     sending people in suits and white shirts to talk about money with
+     the Vice-Chancellor.
+ </p></li>
+ <li><p>
+     <B>
+     ICL (2900 series)
+     </B>
+     </p><p>
+     2900 series
+ </p></li>
+ <li><p>
+     <B>
+     Rank Xerox Data Systems&nbsp;&nbsp;***
+     </B>
+     </p><p>
+     This was the computer-services subsidiary of the (UK) Rank Corporation
+     that used, and marketed, US Xerox Data Systems computer systems.  It
+     was US XDS that withdrew from the computer manufacturing market.
+ </p></li>
+</ul>
+<p>
+<B>***</B> During the months when the University was considering these
+bids, the three suppliers 'starred' above withdrew from the computer
+manufacturing market - not just from our requirement, but globally, suddenly
+and completely.
+</p>
+
+<p>
+<h4>1.4 The DEC-System 10, model: KI-10</h4>
+</p>
+
+<p>
+In 1976, the entire ICL 4130 system was replaced by a DEC-System 10,
+model: KI10.
+</p>
+
+<p>
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+</p>
+
+<p>
+<h4>1.5 The DEC-System 10, model: KL10</h4>
+</p>
+
+<p>
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+</p>
+<p>
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+</p>
+
+<p>&nbsp;</p>
+
+<p>
+<h3>2. Departmental research computers</h3>
+</p>
+
+<p>&nbsp;</p>
+
+<p>
+<h3>3. Departmental servers</h3>
+</p>
+
+<p>
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+</p>
+
+<p>&nbsp;</p>
+
+<p>
+<h3>4. Departmental simple terminals</h3>
+</p>
+
+<p>
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+</p> <p>
+KSR = keyboard send/receive was an input device (keyboard) and an output
+device (teleprinter) operating fully duplex using two twisted pairs at
+110 baud.  With an 11-bit frame containing 8 data bits, that gave 10
+ASCII characters per second.  ASR = automatic send/receive had an extension
+bolted on the side that could read and punch 8-hole paper tape as if from
+the keyboard or to the teleprinter.
+</p>
+
+<p>&nbsp;</p>
+
+<p>
+<h3>5. Departmental Desktop Computers</h3>
+</p>
+
+<p>
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+</p>
+
+<p>&nbsp;</p>
+
+<p>
+<h3>6. Departmental computing facilities: from the Handbook</h3>
+</p>
+
+<p>
+Just for the record, these are straight out of the Students' Handbooks.
+All that have been changed, for brevity, are (1) use of SWTL and HWTL
+instead of longer descriptions, and omission of local names of servers.
+</p>
+
+<table border>
+ <tr><th>1992</th><th>Room</th><th>Terminal</th>
+     <th>Server</th><th>Users</th></tr>
+ <tr><td></td><td>V/058 SWTL</td><td>IBM workstations</td>
+     <td>IBM RS6000/530</td><td>undergraduates</td></tr>
+ <tr><td></td><td>X/A001 SWTL</td><td>IBM PCs</td>
+     <td>IBM RS6000/530</td><td>MSc and Diploma</td></tr>
+ <tr><td></td><td>X/A006 SWTL</td><td>Sun-3 workstations</td>
+     <td>Sun-3/280</td><td>4th year MEng</td></tr>
+ <tr><td></td><td>X/D001 HWTL-1</td><td>Sun-3 workstations</td>
+     <td>Sun-3/280</td><td>timetabled lab</td></tr>
+ <tr><td></td><td>X/D003 HWTL-2</td><td>Terminals</td>
+     <td>IBM RS6000/530</td><td>timetabled lab</td></tr>
+ <tr><td></td><td>X/T001 SWTL</td><td>IBM PCs</td>
+     <td>???</td><td>ITBML undergraduates</td></tr>
+</table>
+
+<p>&nbsp;</p>
+
+
+</HTML>
+

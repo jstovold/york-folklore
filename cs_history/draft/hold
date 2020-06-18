@@ -1,0 +1,403 @@
+
+<HTML>
+
+<title>UoY DoCS History - Narrative for 1960-79</title>
+
+<p>&nbsp;</p>
+
+<h1>History of the Department of Computer Science at York</h1>
+
+<h2>Narrative for the years 1960 to 1979</h2>
+
+<p>
+<B>by Bill Freeman</B>
+</p>
+
+<p>21 Jul 2011</p>
+
+<p>&nbsp;</p>
+
+<p>
+<a href="http://www-users.cs.york.ac.uk/~wf/history/">
+Back to History index.</a>
+</p>
+
+<p>&nbsp;</p>
+
+<h3>xxxxxxxxxx</h3>
+
+
+<p>&nbsp;</p>
+
+<h3>Why is there a University of York?</h3>
+
+<p>
+In 1961 the Prime Minister appointed a Committee on Higher Education, to
+be chaired by (Professor) Lord Robbins, who was Head of Economics at LSE.
+The resulting <I>Robbins Report</I> of
+1963 recommended a rapid and large expansion in the provision of higher
+education in Britain, including the setting up of a number of new
+universities.  Within 24 hours, the government had issued a White Paper
+Accepting most of the recommendations of the Report.
+As a result of this rapid and positive reaction, the establishment of a
+university at York, which had been proposed for some time, came to fruition
+in 1963.
+</p><p>
+But one recommendation, the broadening and extension of undergraduate
+programmes from three years to four years, did not find favour - on grounds,
+as ever, of cost.  This move had to wait for nearly twenty years, when
+Manchester went ahead with the MPhys degree on their own initiative, to
+everyone's ultimate benefit.
+</p>
+
+<p>&nbsp;</p>
+
+<h3>Why is there a Department of Computer Science at York?</h3>
+
+<p>
+'The cost of a medium sized computer is comparable with, for example, a
+small nuclear accelerator or a radio-telescope.'
+</p><p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- The <I>Flowers Report</I>, 1966
+</p>
+
+<p>
+Shortly after this, but unconnected with it, the Government appointed a
+Joint Working Group on Computers for Research, to be chaired by Professor
+Flowers, Langworthy Professor of Physics at Manchester University.
+The resulting <I>Flowers Report</I> was published in January 1966.
+Other members of the group included Gordon Black (Professor of
+Automatic Data Processing at Manchester), two other physicists, and two
+people involved in scientific programming and computation.
+</p><p>
+Why was the Report commissioned?  The answer is that universities and
+research councils were spending too little money on computers or on the
+services that made them usable.  And why was that?
+</p>
+<ul>
+ <li><p>
+     The sums of money involved were enormous in the context of the time:
+     computers were very expensive, and research budgets were very small.
+ </p></li>
+ <li><p>
+     Computers were seen as instruments for research, almost all research
+     money at that time came from the Government, and there was not much
+     public money for research.  The University Grants Committee (UGC) was
+     the quango that dispensed money to universities, and it had to adjudicate
+     fairly among needs that far outstripped its resources.  The UGC worked
+     through Five Year Plans ('quinquennia') that made rapid response almost
+     impossible.
+ </p></li>
+ <li><p>
+     The general public was prepared for money to be spent on teaching, but
+     did not see the point of research.  The Government knew the importance
+     of research, but had to tread carefully.
+ </p></li>
+ <li><p>
+     Within universities, governing bodies did not see the point of computers.
+     They were appalled by the magnitude of the sums of money involved, and
+     saw no benefit at all to non-(science and engineering) departments,
+     who clearly did not need computers, nor any benefit to teaching - which
+     clearly did not need computers.
+ </li>
+</ul>
+<p>
+The Flowers Report recommended the setting up of large regional computing
+centres in London, Manchester and Edinburgh, each of which should have a
+CD 6800 or an IBM 360/92.  It noted that the otherwise largest computers
+then being installed, at Birmingham, Glasgow, Leeds, Liverpool, Nottingham,
+Oxford and Salford (and later Newcastle), were the English Electric KDF9.
+These machines were to be upgraded from 16k to 32k (48-bit) words.
+</p><p>
+(English Electric was a wide-ranging engineering firm that, among other
+things, made the Lightning interceptor that held the world air speed record.
+The KDF9 was a 'scientific' computer - as shown by the 'F' that meant it had
+a floating-point unit: the KDP9 was for commercial data processing, and
+didn't have one.)
+</p><p>
+Both Manchester (university, not regional centre) and Cambridge were rather
+special cases, as they had long been in the business of designing and building
+their own computers.  Indeed, the Flowers Report said that 'Our experience
+is that efficient service . . . generally has to be backed up by a history
+of computer development'.  But the world had moved on from 'If you want a
+computer, build one', to 'If you want some software, write it'.
+</p><p>
+The Report then ran through a list of all Britain's universities.  Before
+getting to York, try the following snippet concerning Exeter: 'The present
+Elliott 803 seems to satisfy the needs of the University for some time'.
+I myself used an Elliott 803, at Hatfield, in 1968-1970.  It was a
+discrete-component germanium transistor machine, with serial processing
+logic but a parallel core memory of 8k 40-bit words.  (It came with just 4k
+if you chose not to pay to have it extended.)  Bit time 6 &mu;s, word time
+288 &mu;s, add time 576 &mu;s.  The instruction set had been designed by a
+student called Ian Barron (who later went on to design the transputer) during
+a vacation from Cambridge, and the Algol compiler - the first ever - had been
+written by Elliott's Chief Programmer, Tony Hoare (yes, that Professor
+Sir Tony Hoare FRS).
+</p><p>
+The number of computers in a university at that time was typically 0 or 1.
+Of Sussex: 'Neither the size of the University nor the nature of work
+warrants the acquisition of the very large computer which they have requested.
+It is felt, however, that that the University should not be left long without
+some computer facility.'
+</p><p>
+Oh, and Keele: 'The University computer belongs to Professor McSweeney as
+his private property. . .'
+</p><p>
+Of <B>York</B>, the Report said:
+</p>
+<ul>
+ <li><p>
+     The Working Group feels that the suggestion [previously] conveyed to them 
+     that an Elliott 503 machine might be suitable for early installation is
+     not a good one.  There is little evidence at present that there will be
+     a heavy computing load in the near future but we acknowledge that a
+     substantial load will eventually be built up at York and recommend the
+     acquisition of an upgradeable Elliott 4100 series starting in 1965-66.
+ </p></li>
+ <li><p>
+     The University [York] should report to the UGC on the state of their
+     computation needs when this computer is commissioned, with a view to
+     later upgrading.  In the meantime we suggest that they work in
+     collaboration with Leeds and Manchester.
+ </p></li>
+</ul>
+<p>
+The Elliott 503 was a re-design of the 803: but this time with silicon
+transistors and parallel logic.  It was notoriously un-upgradeable.
+The Elliott 4100 series, however, was designed with upgradeability as its
+USP: but, of the proposed 4110, 4120, 4130, ... only the 4120 and 4130
+saw the light of day.  The few 4120s produced did not have hardware
+floating point.  The 4150, which
+York had hoped to move on to, was never produced.  What York got was a
+4130, and very good it was too, for its time.
+</p><p>
+Notice, by the way, the sheer number of computer manufacturers involved.
+It was a clearly stated aim of the Flowers Report to spread the load, so
+that no one manufacturer should have its production capacity over-taxed.
+Delays of a year or two between order and delivery were not uncommon -
+and that at a time when designs were going seriously out of date in two
+or three years.  And not only were the offerings from different manufacturers
+incompatible with one another, but successive models from one manufacturer
+were usually incompatible with one another: the idea of a 'series' (IBM 360,
+Elliott 4100) had only just started.  That was important, as most code
+was still written in assembly language (i.e., effectively, machine code).
+</p><p>
+The Flowers Report recommended a total expenditure of &pound;18 million
+over the quinquennium 1965-1970: &pound;12 million on British equipment and
+&pound;6 million on American.  There were no other realistic contenders
+(Japan did not make computers) and British public money was directed to
+British suppliers except in cases where they did not offer anything large
+enough, or did not have the production capacity.  Only a few years earlier,
+the most powerful computer in the world had been the Ferranti Atlas - the
+result of a collaboration between Manchester University and the Manchester
+electrical engineering firm Ferranti, that had started in 1945 when
+personnel had been released from war work.  Some US government 'agencies'
+had been keen to buy the Atlas - and had been visited by Professors Kilburn
+and Williams - but Ferranti had been reluctant to accept orders beyond their
+capacity to manufacture or, more pertinently, to maintain and service at
+such a distance.  Cambridge University was fobbed off with a cut-down Atlas,
+called Titan, on grounds of cost; and this was later replaced by an IBM 360.
+It was a different world.
+</p>
+
+<p>&nbsp;</p>
+
+<h3>xxxxxxxxxx</h3>
+
+
+<p>&nbsp;</p>
+
+<h3>xxxxxxxxxx</h3>
+
+<p>&nbsp;</p>
+
+<h3>The fight for recognition</h3>
+
+<p>
+It is difficult now to realise the difficulties that the Department had
+in it early days to obtain recognition of its needs, or even of its
+right to exist <I>as an academic department</I>.
+</p><p>
+It can well be asked: if the University did not want a Department of
+Computer Science, why did it set one up in the first place?  The answer is,
+that it didn't.  It was offered a 'Department of Computation' or, as it
+could have been called at the time, a Computer Centre with associated
+support and service teaching.  What it got was a cuckoo in the nest.
+Ten years later, it had a very successful Computing Service; and also a
+very successful Department of Computer Science.  But the birth had been
+painful for all concerned.
+</p><p>
+To understand why this should have been so, and also why it should have been
+so in such an extreme way, it is necessary to appreciate the cultural
+environment of the time - something little recorded and now slipping from
+memory.
+</p>
+
+<p>&nbsp;</p>
+
+<h3>The cultural background - disdain for machinery</h3>
+
+<p>
+In 1980, Richard Feynman went to the Archaeological Museum in Athens, to
+look at the Antikythera mechanism: a remarkable calculator/computer survival.
+The knowledge, now, of its existence in 100 BC has enormous implications for
+the history of ideas.  Response from curator: 'Why are you only interested in
+machinery, when there are all these statues?'
+</p><p>
+In the mid-1970s, a senior member of this Department had a rewarding
+discussion with a senior member of the University administration who told
+him that Computer Science was not a proper academic discipline any more
+than Lawnmower Science would be.  The trouble with assertions like that is
+the number of unspoken assumptions in the statement that have to be
+disposed of even before the substance of the statement can be addressed.
+And also, of course, the fact that Computer Science is not science: it
+is engineering.  (This last point is essential if the lawnmower heresy
+is to be dealt with.)
+</p><p>
+In the 1950s, the Princeton Institute of Advanced Studies were appalled by
+John von Neumann's attempts to install on site some computer hardware that
+was under development.  Contrast that with the open-mindedness of King's
+College Cambridge, fifteen years earlier, when Alan Turing got the Mechanical
+Engineering workshops to make him some gear wheels with prime numbers of
+teeth in an ultimately hopeless (and uncompleted) project to detect
+counter-examples to the Riemann hypothesis.
+</p><p>
+Back to the lawnmowers.  That people were so ignorant and lacking in
+imagination is not reprehensible.  They were ignorant (factually and not
+pejoratively) simply because computers and computer science were so new.
+Computers were far more new, to far more people, than it is now easy to
+believe.  The people concerned were lacking in imagination only because
+they were not used to being imaginative about machinery.
+They could not see that the use
+of some machinery can be unbounded, and that that use can be a respectable
+academic pursuit: but also they could not see that the invention and
+design of machinery, and the co-operation between design and requirement,
+each feeding off the other, are creative and mentally stimulating
+activities - that these can be academic pursuits also.
+</p><p>
+Edsger Dijkstra's snide comment that 'Computer Science is no more about
+computers than Astronomy is about telescopes' is dangerous both because it
+is just a tiny bit true and also because it is almost entirely false -
+with the wit of the statement amplifying the true aspect while distracting
+us from its predominant falsity.
+</p><p>
+It did make the work of establishing the Department an uphill task.
+</p>
+
+<p>&nbsp;</p>
+
+<h3>The cultural background - state versus process</h3>
+
+<p>
+This is not concerned with Computer Science alone.  It is to do with any
+intellectual or technical activity.  Specifically: there is a tendency to
+see what you know about as a process, and what you <I>think</I> you know
+about as a state.  In a world, and at a time, when not many people actually
+knew much about computers, they were accepted as they were and there was
+little questioning of where they - or the engineering of their hardware
+and software - came from.
+</p><p>
+</p>
+
+<p>&nbsp;</p>
+
+<h3>xxxxxxxxxx</h3>
+
+
+<p>&nbsp;</p>
+
+<h3>xxxxxxxxxx</h3>
+
+
+<p>&nbsp;</p>
+
+<h3>1975 - a Snapshot</h3>
+
+<p>
+The year 1975 saw the first issue of the Computer Science
+Students' Handbook.  It is therefore the first year for which we
+now have detailed information.
+</p><p>
+Here is exactly how it describes the Board of Studies:
+</p>
+<table>
+ <tr><td>&nbsp;&nbsp;&nbsp;</td><td>Dr I C Wand (Chairman)</td></tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;</td><td>Mr W Freeman (Secretary)</td></tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;</td><td>Prof I C Pyle (Head of Department)</td></tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;</td><td>Mr D G Burnett-Hall</td></tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;</td><td>Mr A J Bullen</td></tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;</td><td>Mr C J Tully</td></tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;</td><td>Dr A J Willmott</td></tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;</td><td>Dr D Orr (Dept of Physics)</td></tr>
+</table>
+<p>
+The reason that David Orr was a member of our BoS is that he taught and
+examined a significant part of our programme at that time: we had not yet set
+up our own hardware teaching labs, and also we were under pressure for
+teaching and examining manpower, so Physics provided us with hardware teaching
+labs and a lecturer/examiner for our digital systems design module.
+(The Department of Electronics did not yet exist.)
+It had always been our policy to include computer hardware in our teaching
+and research, alongside software, theory and applications.  In that, we were
+unusual if by no means alone - and it served us well.
+</p><p>
+Notable students at the time included:
+</p>
+<table>
+ <tr><td>&nbsp;&nbsp;&nbsp;</td>
+     <td>Second year:</td><td>Andrew [sic] Wellings</td></tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;</td>
+     <td>Third year:</td><td>Colin Runciman</td></tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;</td>
+     <td>MPhil year 1:&nbsp;</td><td>Alan Burns</td></tr>
+</table>
+<p>
+Returning to the Board of Studies notice that, although three members
+(Burnett-Hall, Bullen, Willmott) had qualifications in numerical computation,
+not one member had any formal qualification of any kind in Computer Science.
+All had come into Computer Science from other fields, which accounted for
+the small number with PhDs.  Also, note that, unlike many Computer Science
+departments at the time, it was not the case that almost all were
+mathematicians: the Department's tradition of containing a stiffening of
+ex-physicists had started even then.  The (early) career histories of the
+CS members were as follows.
+</p>
+<table>
+ <tr><td>&nbsp;&nbsp;&nbsp;</td><td>Ian Wand</td>
+     <td>Leicester (Physics), IBM Hursley</td></tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;</td><td>Bill Freeman</td>
+     <td>Leeds (Physics), Hatfield Polytechnic Computer Centre</td></tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;</td><td>Ian Pyle</td>
+     <td>Cambridge (Physics),
+         Atomic Energy Research Establishment Harwell</td></tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;</td><td>David Burnett-Hall&nbsp;</td>
+     <td>Cambridge (Mathematics),
+         Royal Aircraft Establishment Farnborough</td></tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;</td><td>Tony Bullen</td>
+     <td>York (Mathematics, Numerical Computation)</td></tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;</td><td>Colin Tully</td>
+     <td>Cambridge (Economics),
+         London School of Economics, LEO Computers</td></tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;</td><td>John Willmott</td>
+     <td>Manchester (Mathematics, Computation),
+         British Iron and Steel Research Association</td></tr>
+</table>
+<p>
+It was the task of the Secretary to edit the Students' Handbook.  It was
+written in longhand, typed on electric! typewriters by the secretarial
+staff, iterated until correct, and then sent on A4 sheets for printing.
+At no stage was any of the text stored or processed by artficial means.
+</p><p>
+As an indication of the size of the University at that time: most members of
+staff had three-digit telephone numbers.  A few had four digits, all beginning
+with '5' to use the recent expansion of the exchange.
+</p>
+
+<h3>xxxxxxxxxx</h3>
+
+<p>&nbsp;</p>
+
+</HTML>
+

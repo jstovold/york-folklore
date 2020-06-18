@@ -1,0 +1,5 @@
+ls -l N-60-79.html
+ls -l ../N-60-79.html
+cp N-60-79.html ..
+ls -l ../N-60-79.html
+ls -l N-60-79.html
