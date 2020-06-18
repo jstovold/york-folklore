@@ -1,0 +1,112 @@
+.NH 1
+SERC Grants and Contracts
+.LP
+I have been responsible for the SERC grants and contracts given in the
+following tables.
+The number of staff funded by each grant or contract is given
+in the column marked RAs (Research Assistants). 
+.sp 1
+.TS H
+allbox;
+c s s s s
+cw(20) c c c c
+l r r r c.
+SERC Grants 
+Grant Title	Grant Number	Value	Period	RAs
+.TH
+T{
+.na
+Real-time programming language\ *
+T}	B/RG/76970	60,552	April 75 - Dec 78	1
+T{
+.na
+Modula distribution and promulgation
+T}	GR/A/52676	15,310	Jan 78 - Dec 80	1
+T{
+.na
+Modula distribution and promulgation - supplementary proposal
+T}	GR/A/94317	7,591	Aug 79 - July 80	0
+T{
+.na
+A workbench compiler for the programming language Ada\ *
+T}	GR/B/06987	72,860	Oct 79 - Sept 82	3
+T{
+.na
+Computing facilities for research in software technology\ *
+T}	GR/B/29337	255,448	Aug 80 - July 83	1
+T{
+.na
+A distributed operating system for time-sharing use
+T}	GR/A/85889	27,800	Oct 79 - Sept 81	2
+T{
+.na
+An operating system for a network of personal computers
+T}	GR/B/78076	126,776	Nov 81 - Nov 84	3
+T{
+.na
+Travelling in connection with the establishment of a Software Technology Centre\ *
+T}	GR/B/20242	2,000	Oct 79 - Sept 80	0
+T{
+.na
+Exploitation from the Software Technology Centre\ *
+T}	GR/B/58658	26,710	May 81 - April 84	1
+T{
+.na
+Continuation of facilities for research in software technology\ *
+T}	GR/C/03959	161,128	July 82 - July 85	2
+T{
+.na
+Further development and promulgation of the York Ada compiler
+T}	GR/C/69634	95,135	Jan 84 - Dec 86	3
+T{
+.na
+Further support for computing facilities for research in software technology
+T}	GR/C/75758	192,903	July 84 - June 87 	2
+T{
+.na
+Research and development leading towards a distributed integrated project support environment
+T}	GR/C/98092	588,517	Oct 84 - Sept 87	6
+.TE
+.ad
+.LP
+The grant titles marked with an asterisk were held jointly with
+Professor Pyle.
+.sp 1
+.KS
+.TS
+allbox;
+c s s s s
+cw(20) c c c c 
+l r r r c.
+SERC Extra Mural Research Contracts
+Contract Title	Reference	Value	Period	RAs
+T{
+.na
+X25 UNIX software: phase 1\ *
+T}	N45/62/2	25,001	Sept 79 - Aug 81	1
+T{
+.na
+X25 UNIX software: phase 2
+T}	N2B/2R/0931	23,950	Nov 81 - Dec 83	1
+T{
+.na
+X25 UNIX software on PERQ\ **
+T}	N2A/3R/0543	 9,920	Aug 82 - July 83	1
+T{
+.na
+Ada on PERQ
+T}	SO/266/82	43,000	Sept 82 - Aug 84	2
+T{
+.na
+Maintenance and enhancements of UNIX networking software\ **
+T}	N2A/4R/0553	81,162	Aug 83 - June 86	2
+.TE
+.ad
+.LP
+The contract marked with an asterisk was held jointly with
+Professor Pyle;  those marked with a double asterisk were/are held jointly
+with members of the University of York Computing Service.
+.KE
+.LP
+Equipment, with a value of approximately \(po200,000, is on loan
+to support the current grants and contracts.
